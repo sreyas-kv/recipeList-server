@@ -1,0 +1,112 @@
+.parent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f9f7f7, #dbe2ef);
+}
+
+.createRecipe-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.return-button {
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    border: solid 1px #112d4e;
+    color: #112d4e;
+    background-color: #dbe2ef;
+    margin-top: 5px;
+}
+
+.return-button:hover {
+    background-color: #3f72af;
+}
+
+.create-heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #112d4e;
+    color: #dbe2ef;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.createRecipe-form {
+    padding: 15px;
+    background-color: #3f72af;
+    color: #dbe2ef;
+}
+
+.create-input {
+    width: 280px;
+    margin: 5px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.000em; */
+    font-size: 12px;
+}
+
+.create-input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.cooking-input {
+    width: 100px;
+    margin: 5px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.000em; */
+    font-size: 12px;
+}
+
+.cooking-input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.add-button {
+    border: solid red 3px;
+    display: flex;
+}
+
+.instruction-button {
+    width: 300px;
+    margin: 5px;
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.000em;
+}
+
+.add-ingredients {
+    background-color: #112d4e;
+    color: #f9f7f7;
+    width: 120px;
+    margin: 10px 10px 10px 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.000em; */
+    font-size: 12px;
+}
+
+.add-ingredients:hover {
+    background-color: #dbe2ef;
+    color: #112d4e;
+}
+/* 
+.remove-ingredientd{
+    font-size: 12px
+} */
